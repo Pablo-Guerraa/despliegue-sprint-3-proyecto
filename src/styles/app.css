@@ -1,0 +1,28 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.background {
+  position: relative;
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #352E6C;
+  background-image: url(https://res.cloudinary.com/dxhgejzwc/image/upload/v1651979055/Sprint-3-reto-1/Captura-de-pantalla-2017-03-30-a-las-11.59.05_amhzpl.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.background::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .8);
+}
+.bg {
+  background-color: rgba(15, 14, 23, 1) !important;
+}

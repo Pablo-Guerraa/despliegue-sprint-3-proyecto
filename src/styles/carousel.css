@@ -1,0 +1,13 @@
+.container-slider {
+  height: 400px;
+  max-width: 90vw; 
+  margin: auto;
+}
+.container-slider img {
+  max-height: 300px;
+  max-width: 90vw;
+  margin: auto;
+}
+.container-slider > div {
+  max-height: 100%;
+}

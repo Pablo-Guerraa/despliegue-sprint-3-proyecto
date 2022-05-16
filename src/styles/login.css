@@ -1,0 +1,65 @@
+.container-login {
+  z-index: 9;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  position: relative;
+}
+.card-login {
+  height: 70%;
+  width: 90%;
+  font-size: 1.5em;
+  transition: .5s;
+  cursor: pointer;
+}
+.card-login:hover {
+  transform: scale(1.1);
+}
+.login-google { 
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.login-facebook {
+  color: blue;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px;
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+}
+
+
+.form-login {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 10px;
+}
+.input-login {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.68);
+  border-radius: 5px;
+}
+.label-login {
+  color: white;
+}
+.link-register {
+  position: absolute;
+  top: 24px;
+  right: 50px;
+  cursor: pointer;
+  z-index: 18;
+}

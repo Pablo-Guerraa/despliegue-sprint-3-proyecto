@@ -1,0 +1,32 @@
+.cards-home {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.loader {
+  height: 330px;
+  width: 220px;
+  background-color: white;
+  position: relative;
+  border-radius: 8px;
+  animation: skeleton .5s infinite linear alternate;
+  margin: 25px 0;
+}
+.loader > span {
+  height: 64px;
+  width: 114px;
+  position: absolute;
+  top: 24px;
+  left: 0px;
+  border-radius: 0px 100px 100px 0px;
+  background-color: #272632;
+}
+@keyframes skeleton {
+  0%{
+    background-color: #201f2b;
+  }
+  100% {
+    background-color: #272632;
+  }
+}
